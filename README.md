@@ -1,13 +1,6 @@
 # Swappable Transformer 
 
-This is a small part of the code I used for an ablation study I did on transformer architecture. It contains modular components for implementing various parts of the standard transformer architecture, as well as some later techniques.
-
-## About
-
-- Designed for different components to be easily swappable (e.g. swapping MHA, GQA) and for easy parameter modification.
-- Parameter choices and implementation based on the Attention Is All You Need paper by Vaswani et Al. (**a few things are different, see below**)
-- Implemented using Pytorch
-
+This is a small part of the code I used for an ablation study I did on transformer architecture. It contains modular components for implementing various parts of the standard transformer architecture, as well as some later techniques. The components (classes) are designed to be easily swappable (e.g. swapping MHA, GQA) and for easy parameter modification.
 
 ## Components
 
@@ -26,6 +19,11 @@ This is a small part of the code I used for an ablation study I did on transform
   - Encoder
   - Decoder
   - Transformer
+
+## Notes
+
+- Parameter choices and implementation based on the Attention Is All You Need paper by Vaswani et Al. (**a few things are different, see below**)
+- Implemented using Pytorch
 
 ## Deviations from AIAYN paper
 - Use pre-norm instead of post-norm  
