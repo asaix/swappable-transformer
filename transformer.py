@@ -15,7 +15,6 @@ from .ffn import *
 from .norm import *
 from .positional import *
 
-# TODO: pass arguments from transformer class -> encoder/decoder -> enclayer/declayer
 
 class Transformer(nn.Module):
     def __init__(self, d_emb, src_itos, tgt_stoi, posconf, attconf, normconf, ffnconf, dropout=0.1, N=6):
