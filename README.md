@@ -1,10 +1,10 @@
-# Transformer Implementation
+# Swappable Transformer 
 
 This is a small part of the code I used for an ablation study I did on transformer architecture. It contains modular components for implementing various parts of the standard transformer architecture, as well as some later techniques.
 
 ## About
 
-- Modular and easy to import into another project or change methods
+- Designed for different components to be easily swappable (e.g. swapping MHA, GQA) and for easy parameter modification.
 - Parameter choices and implementation based on the Attention Is All You Need paper by Vaswani et Al. (**a few things are different, see below**)
 - Implemented using Pytorch
 
