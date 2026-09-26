@@ -1,6 +1,6 @@
 # Transformer Implementation
 
-This is a small part of the code I used for an ablation study I did on transformer architecture. It contains the methods for implementations of different parts of the standard transformer architecture (see #methods).
+This is a small part of the code I used for an ablation study I did on transformer architecture. It contains modular components for implementing various parts of the standard transformer architecture, as well as some later techniques.
 
 ## About
 
@@ -9,7 +9,7 @@ This is a small part of the code I used for an ablation study I did on transform
 - Implemented using Pytorch
 
 
-## Methods
+## Components
 
 - Attention
   - MHA 
